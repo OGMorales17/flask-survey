@@ -23,6 +23,7 @@ class Survey:
         self.questions = questions
 
 
+# For the basic work only with the satisfaction_survey function
 satisfaction_survey = Survey(
     "Customer Satisfaction Survey",
     "Please fill out a survey about your experience with us.",
@@ -34,6 +35,7 @@ satisfaction_survey = Survey(
         Question("Are you likely to shop here again?"),
     ])
 
+# Ignore the rest until further study
 personality_quiz = Survey(
     "Rithm Personality Test",
     "Learn more about yourself with our personality quiz!",
